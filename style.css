@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:wght@100;400;500&family=Padauk:wght@700&family=Playfair+Display:wght@700&family=Roboto:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    width: 100%;
+    height: 15vh;
+ /*   background-color:aqua; */
+    
+}
+
+.container-div-header{
+    width: 90%;
+    height: 15vh;
+  /*  background-color: cornsilk; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo-selfCare{
+    width: 10%;
+    height: 30px;
+}
+
+.container-icon-header{
+    width: 13%;
+    height: 40px;
+ /*   background-color:cadetblue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-header{
+    width: 30px;
+    height: 30px;
+}
+
+.container-sectionPrincipal{
+    width: 100%;
+    height: 50vh;
+    background-image:url(Assets/banner.png);
+}
+
+.container-inf{
+    width: 90%;
+    height: 10vh;
+    font-family: 'Lato', sans-serif;
+   /* background-color:darkkhaki; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.container-amostras-principal{
+    width: 100%;
+    height: 245vh;
+/*    background-color:darkslategrey; */
+
+}
+
+.container-amostras-colunas{
+    width: 90%;
+    height: 245vh;
+  /*  background-color: #8FBC8F; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.amostras-coluna{
+    width: 100%;
+    height: 70vh;
+ /*   background-color:#B8860B; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-amostras-inf{
+    width: 25vw;
+    height: 65vh;
+ /*   background-color:gold; */
+}
+
+.amostras-imagens{
+    width: 100%;
+    height: 57vh;
+} 
+
+.amostras-paragrafos{
+    width: 90%;
+    height: 7vh;
+  /*  background-color:#F4A460; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.valor{
+    color:#4CAF50;
+}
+
+.container-interacao{
+    width: 100%;
+    height: 40vh;
+ /*   background-color:#4B0082; */
+}
+
+.caixas-interacao{
+    width: 90%;
+    height: 40vh;
+    margin: auto;
+/*    background-color: #8A2BE2; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interacoes{
+    width: 50%;
+    height: 30vh;
+ /*   background-color:#9370DB; */
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.li-interacoes a{
+    padding-top: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-ul-interacoes{
+    list-style: none;
+}
+
+.inscrever-se{
+    width: 34%;
+    height: 30vh;
+   /* background-color:#A020F0; */
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-input-buttom-interagir{
+    width: 30vw;
+    height: 10vh;
+ /*   background-color:#8B008B; */
+    padding-top: 10px;
+}
+
+.input{
+    width: 20vw;
+    height: 5vh;
+}
+
+.buttom{
+    width: 8vw;
+    height: 6vh;
+    background-color:#4CAF50;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color:white;
+    border-radius: 10px;
+}
+
+.container-footer{
+    width: 100%;
+    height: 15vh;
+ /*   background-color:#8B4513; */
+}
+
+.caixa-footer{
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+ /*   background-color:#A0522D; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-redes-sociais{
+    width: 10vw;
+    height: 8vh;
+ /*   background-color: #CD853F; */
+}
+
+.icon-rede-social{
+    width: 50px;
+    padding-right: 20px;
+
+}
+
+.container-forma-pagamento{
+    width: 15vw;
+    height: 8vh;
+/*    background-color:#CD853F; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon-pagamento{
+    width: 35px;
+    height: 35px;
+}
+
+#visa{
+    width: 60px;
+    height: 30px;
+}
